@@ -15,23 +15,23 @@
         <title>让我帮你百度一下</title>
     </head>
     <body>
-		<img id="arrow" src="img/arrow.png" alt="arrow">
-		<span class="about">?</span>
-		<div class="container">
-			<h1 class="title">需要我帮你<img class="baidu" src="img/baidu_logo.png" alt="百度">么</h1>
-			<span class="search-container">
-				<input type="text" id="search" />
-				<input type="button" id="get" class="button" value="百度一下" />
-			</span>
-			<div id="instrcutions">输入一个问题，然后按百度一下</div>
-			<div id="link">
-				<input type="text" readonly="readonly" id="url" />
-				<div>
-					<input style="margin: 0 10px;" type="button" class="button" id="copy" value="复制" />
-					<input style="margin: 0 10px;" type="button" class="button" id="skip" value="预览" />
-				</div>
+	<img id="arrow" src="img/arrow.png" alt="arrow">
+	<span class="about">?</span>
+	<div class="container">
+		<h1 class="title">需要我帮你<img class="baidu" src="img/baidu_logo.png" alt="百度">么</h1>
+		<span class="search-container">
+			<input type="text" id="search" />
+			<input type="button" id="get" class="button" value="百度一下" />
+		</span>
+		<div id="instrcutions">输入一个问题，然后按百度一下</div>
+		<div id="link">
+			<input type="text" readonly="readonly" id="url" />
+			<div>
+				<input style="margin: 0 10px;" type="button" class="button" id="copy" value="复制" />
+				<input style="margin: 0 10px;" type="button" class="button" id="skip" value="预览" />
 			</div>
 		</div>
+	</div>
     </body>
 </html>
 ```
